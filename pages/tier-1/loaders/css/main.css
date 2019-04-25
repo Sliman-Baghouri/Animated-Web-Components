@@ -1,0 +1,241 @@
+/* ==========================================================================
+imports
+========================================================================== */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,500italic,700,700italic,900,900italic,100italic);
+
+/* ==========================================================================
+Global reset 
+========================================================================== */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ==========================================================================
+Base rules
+========================================================================== */
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+/* ==========================================================================
+Typography 
+========================================================================== */
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #383838;
+}
+
+h1, .h1 { font-size: 32px; }
+h2, .h2 { font-size: 26px; }
+h3, .h3 { font-size: 22px; }
+h4, .h4 { font-size: 19px; }
+h5, .h5 { font-size: 17px; }
+h6, .h6 { font-size: 15px; }
+
+h1, h2, h3 {
+  margin-top: 21px;
+  margin-bottom: 10.5px;
+}
+
+h4, h5, h6 {
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+}
+
+/* ==========================================================================
+Tables
+========================================================================== */
+
+
+/* ==========================================================================
+Scaffolding
+========================================================================== */
+
+
+/* ==========================================================================
+Modules - reusable parts of our design
+========================================================================== */
+
+
+/* ==========================================================================
+Main components 
+========================================================================== */
+
+#page {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+/*---------- header ---------- */
+
+#page header#header {
+  max-width: 100%;
+  height: 100px;
+  background: rgba(0,0,0,.2);
+}
+#page header#header .header-container {
+  max-width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+  /*background: rgba(0,0,0,.1);*/
+}
+
+/*---------- section ---------- */
+
+#page section#main {
+  max-width: 100%;
+  /*height: 100px;*/
+  background: rgba(0,0,0,.2);
+}
+#page section#main .section-container {
+  max-width: 1000px;
+  /*height: 100px;*/
+  margin: 0 auto;
+  /*background: rgba(0,0,0,.2);*/
+}
+
+/*---------- footer ---------- */
+
+#page footer#footer {
+  max-width: 100%;
+  height: 100px;
+  background: rgba(0,0,0,.2);
+}
+#page footer#footer .footer-container {
+  max-width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+  /*background: rgba(0,0,0,.3);*/
+}
+
+
+
+
+
+
+
+
+
+
+
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+ul {
+  background: #fff;
+  width: 720px;
+  margin: auto;
+  /*margin-top: 60px;*/
+  list-style: none;
+  padding: 0;
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
+}
+ul li {
+  width: 180px;
+  height: 180px;
+  line-height: 176px;
+  text-align: center;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+ul li img {
+  vertical-align: middle;
+}
+li:nth-child(1) {
+  background-color: #1ABC9C;
+}
+li:nth-child(2) {
+  background-color: #34495E;
+}
+li:nth-child(3) {
+  background-color: #F39C12;
+}
+li:nth-child(4) {
+  background-color: #9B59B6;
+}
+li:nth-child(5) {
+  background-color: #3498DB;
+}
+li:nth-child(6) {
+  background-color: #E74C3C;
+}
+li:nth-child(7) {
+  background-color: #2ECC71;
+}
+li:nth-child(8) {
+  background-color: #2C3E50;
+}
+li:nth-child(9) {
+  background-color: #F1C40F;
+}
+li:nth-child(10) {
+  background-color: #8E44AD;
+}
+li:nth-child(11) {
+  background-color: #2980B9;
+}
+li:nth-child(12) {
+  background-color: #E74C3C;
+}
